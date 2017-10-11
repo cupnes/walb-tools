@@ -14,7 +14,7 @@ See [WalB is hard(in Japanese)](https://slideshare.net/herumi/walb-ishard/).
 * **wdiff**: A data format transformed from wlog.
 * **WalB log device (ldev)**: A block device on which wlog is written.
 * **WalB data device (ddev)**: A block device on which real data is written when the data is written on wdev.
-WalB handes both ldev and wdev and shows one wdev to users.
+WalB handes both ldev and ddev and shows one wdev to users.
 * **take a snapshot**: Assign an identifier to a status of wdev (a full disk image) at a certain moment
 * **gid**: The unique 64-bit integer identifier assigned by takeing a snapshot.
 * **restore**: Recover the status of wdev specified by the snapshot on a LVM volume.
